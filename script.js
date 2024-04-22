@@ -11,3 +11,10 @@ var programmingLanguages = [
   "Rust",
   "C#"
 ];
+
+console.log(programmingLanguages);
+
+for(var language of programmingLanguages) {
+  console.log(`I want to learn ${language}.`);
+};
+
