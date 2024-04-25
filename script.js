@@ -19,6 +19,6 @@ for(var language of programmingLanguages) {
 };
 
 programmingLanguages.forEach(function (language, index) {
-  language.toUpperCase();
-  console.log(`${index+1}. ${language}`);
+  let upperProgram = `${index+1}. ${language}`;
+  console.log(upperProgram.toUpperCase());
 });
