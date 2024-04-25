@@ -22,3 +22,8 @@ programmingLanguages.forEach(function (language, index) {
   let upperProgram = `${index+1}. ${language}`;
   console.log(upperProgram.toUpperCase());
 });
+
+var updatedLanguages = programmingLanguages.filter(function (language) {
+  return language.includes("y");
+});
+console.log(updatedLanguages);
